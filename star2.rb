@@ -1,4 +1,4 @@
-numbers = File.readlines('./star_1_input.txt').map(&:strip).map(&:to_i).sort
+numbers = File.readlines('./day_1_input.txt').map(&:strip).map(&:to_i).sort
 numbers.each do |number|
   numbers.each do |addition|
       numbers.each do |another_addition|
